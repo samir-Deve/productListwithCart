@@ -1,0 +1,148 @@
+@font-face {  
+	font-family: 'Red Hat Text Bold';
+	src: url('../assets/fonts/static/RedHatText-SemiBold.ttf') format('truetype');  
+	font-weight: bold;  
+	font-style: normal;  
+}
+
+.cart_container {
+	font-family: 'Red Hat Text Bold';
+	margin: 0px;
+	padding: 0px;
+	background-color: white;
+	width: 380px;
+	max-height: 450px;
+	padding: 10px 10px;
+	font-size: 16px;
+}
+
+.cart_container .cart_header {
+	color: hsl(0, 59%, 41%);
+}
+
+.cart_container .cart_pro_list .each_list_li {
+	margin-left: -40px;
+	border-bottom: 1px solid black;
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 5px;
+}
+
+.cart_container .cart_pro_list .each_list_li .name_price_quantity {
+	display: flex;
+	flex-direction: column;
+}
+
+.cart_container .cart_pro_list .each_list_li .name_price_quantity .name {
+	font-weight: 600;
+	font-size: 1.1em;
+	padding-left: 10px;
+}
+
+.cart_container .cart_pro_list .each_list_li .name_price_quantity .quantity_price_totalPrice {
+	width: 150px;
+	display: flex;
+	justify-content: space-around;
+	padding: 5px 0px;
+}
+
+
+.cart_container .cart_pro_list .each_list_li .name_price_quantity .quantity_price_totalPrice .quantity {
+	font-size: 1.1em;
+	color: brown;
+	font-weight: 550;
+}
+
+
+.cart_container .cart_pro_list .each_list_li .name_price_quantity .quantity_price_totalPrice .each_price {
+	font-size: 1.1em;
+	color: gray;
+}
+
+.cart_container .cart_pro_list .each_list_li .name_price_quantity .quantity_price_totalPrice .total_price {
+	font-size: 1.1em;
+}
+
+.cart_container .cart_pro_list .each_list_li .delete_btn {
+	width: 25px;
+	height: 25px;
+	border: 0.2em solid hsl(0, 0%, 50%);
+	border-radius: 50%;
+	background-color: transparent;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+
+.cart_container .cart_pro_list .each_list_li .delete_btn:hover {
+	border-color: hsl(0, 0%, 0%);
+}
+
+.cart_container .cart_pro_list .each_list_li .delete_btn svg {
+	font-size: 1.2em;
+}
+
+.cart_container .cart_pro_list .each_list_li .delete_btn svg path{
+	fill: hsl(0, 0%, 50%);
+}
+
+.cart_container .cart_pro_list .each_list_li .delete_btn.delete_btn:hover svg path{
+	fill: hsl(0, 0%, 0%);
+}
+
+.cart_container  .total_order_price {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 5px;
+}
+
+.cart_container  .total_order_price .total_text {
+	font-size: 1em;
+
+}
+
+.cart_container  .total_order_price .order_price {
+	font-size: 1.5em;
+	font-weight: bold;
+	
+}
+
+.cart_container  .carbon_neutral_container {
+	background-color: beige;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 15px 5px;
+}
+
+.cart_container  .carbon_neutral_container svg {
+	margin-right: 5px;
+}
+
+.cart_container .order_confirm_btn {
+	height: 50px;
+	margin: 15px 0px;
+}
+
+.cart_container .order_confirm_btn button{
+	background-color: brown;
+	width: 100%;
+	height: 100%;
+	border-radius: 25px;
+	border: none;
+	font-size: 1.2em;
+	color: white;
+	cursor: pointer;
+}
+
+.cart_container  .carbon_neutral_container .carbon_neutral_text {
+	color: gray;
+}
+
+.cart_container  .carbon_neutral_container .carbon_neutral_text b {
+	color: black;
+}
